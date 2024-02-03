@@ -145,7 +145,7 @@ sample(
         progress::Bool=false
     )
 Sample `n_samples` samples using the proposal `κ` under Hamiltonian `h`.
-- The randomness is controlled by `rng`. 
+- The randomness is controlled by `rng`.
     - If `rng` is not provided, `GLOBAL_RNG` will be used.
 - The initial point is given by `θ`.
 - The adaptor is set by `adaptor`, for which the default is no adaptation.
